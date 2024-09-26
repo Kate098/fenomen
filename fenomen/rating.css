@@ -1,0 +1,153 @@
+.bgimg {
+    background-image: url(./image/abouttournaments/bg.png);
+    background-repeat: no-repeat;
+}
+
+.header {
+    background-color: #fff;
+    margin: 0 auto;
+    height: 161px;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+    justify-content: space-between;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 568px;
+    font-size: 20px;
+    font-family: "EB Garamond", serif;
+}
+
+.menu a {
+    color: #242D4A;
+}
+
+.nav_left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 758px;
+}
+
+.btn {
+    border: solid 1px #242D4A;
+    border-radius: 10px;
+    padding: 10px 30px;
+    font-family: "EB Garamond", serif;
+    font-size: 20px;
+}
+
+.btn a {
+    color: #242D4A;
+}
+
+table {
+    margin-top: 49px;
+    width: 1500px;
+    text-align: center;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    position: relative;
+}
+
+.line {
+    z-index: 5;
+    position: absolute;
+    margin-top: -1200px;
+    margin-left: 100px;
+}
+
+thead {
+    background: #E8E8E8;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+th {
+    padding: 35px 0 35px 0;
+}
+
+tbody {
+    background-color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+
+tr {
+    padding: 50px 70px 50px 100px;
+}
+
+td {
+    padding: 50px 0 50px 0;
+}
+
+.place {
+    width: 170px;
+}
+
+
+
+
+
+
+
+
+
+
+.footer {
+    background-color: #fff;
+    margin-top: 150px;
+    height: 250px;
+}
+
+.footer-top {
+    padding-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.m2 a {
+    color: #242D4A;
+}
+
+.contacts {
+    color: #242D4A;
+    font-family: "EB Garamond", serif;
+    font-size: 18px;
+}
+
+.number {
+    color: #242D4A;
+    font-family: "EB Garamond", serif;
+    font-size: 18px;
+    float: right;
+    margin-top: -75px;
+}
+
+.footer-bottom {
+    color: #242D4A;
+    font-family: "EB Garamond", serif;
+    font-size: 18px;
+}
+
+.fb {
+    margin-top: 30px;
+}

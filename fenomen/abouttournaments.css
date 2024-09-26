@@ -1,0 +1,221 @@
+.bgimg {
+    background-image: url(./image/abouttournaments/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header {
+    margin: 0 auto;
+    height: 161px;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+    justify-content: space-between;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 568px;
+    font-size: 20px;
+    font-family: "EB Garamond", serif;
+}
+
+.menu a {
+    color: #242D4A;
+}
+
+.nav_left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 758px;
+}
+
+.btn {
+    border: solid 1px #242D4A;
+    border-radius: 10px;
+    padding: 10px 30px;
+    font-family: "EB Garamond", serif;
+    font-size: 20px;
+}
+
+.btn a {
+    color: #242D4A;
+}
+
+.block {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.left {
+    color: #242D4A;
+    margin-top: 51px;
+    background-color: #fff;
+    width: 996px;
+    height: 1128px;
+    border-radius: 10px;
+}
+
+.left h2 {
+    margin-left: 30px;
+    width: 936px;
+    text-align: justify;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.left p {
+    margin-left: 30px;
+    width: 936px;
+    text-align: justify;
+    font-family: "Roboto", sans-serif;
+    font-size: 19px;
+    font-weight: 300;
+    margin-top: 13px;
+}
+
+.inputs {
+    display: inline;
+}
+
+.some-input {
+    font-family: "Roboto", sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    margin-right: 20px;
+    margin-top: 60px;
+    margin-left: 30px;
+    width: 450px;
+    border: none;
+    border-bottom: 1px solid #000000;
+    background-color: transparent;
+    color: #242D4A;
+    outline: none;
+}
+
+::placeholder {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    color: #242D4A;
+}
+
+.btn2 {
+    margin-left: 30px;
+    width: 270px;
+    margin-top: 40px;
+    padding: 14px 57px;
+    border-radius: 10px;
+    background-color: #242D4A;
+}
+
+.btn2 a {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+
+.right {
+    margin-top: 51px;
+    background-color: #fff;
+    width: 440px;
+    height: 973px;
+    border-radius: 10px;
+}
+
+.right h2 {
+    margin-left: 30px;
+    text-align: justify;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.right p {
+    margin-left: 30px;
+    text-align: justify;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 116px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    background-color: #fff;
+    margin-top: 150px;
+    height: 250px;
+}
+
+.footer-top {
+    padding-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.m2 a {
+    color: #242D4A;
+}
+
+.contacts {
+    color: #242D4A;
+    font-family: "EB Garamond", serif;
+    font-size: 18px;
+}
+
+.number {
+    color: #242D4A;
+    font-family: "EB Garamond", serif;
+    font-size: 18px;
+    float: right;
+    margin-top: -75px;
+}
+
+.footer-bottom {
+    color: #242D4A;
+    font-family: "EB Garamond", serif;
+    font-size: 18px;
+}
+
+.fb {
+    margin-top: 30px;
+}

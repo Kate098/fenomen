@@ -1,0 +1,370 @@
+body {
+    background-color: #242D4A;
+}
+
+.bgimg {
+    background-image: url(./image/index/bg.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: top 0px right;
+}
+
+.header {
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+    justify-content: space-between;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 568px;
+    font-size: 20px;
+    font-family: "EB Garamond", serif;
+}
+
+.menu a {
+    color: #ffff;
+}
+
+.nav_left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 758px;
+}
+
+.btn {
+    border: solid 1px #ffff;
+    border-radius: 10px;
+    padding: 10px 30px;
+    font-family: "EB Garamond", serif;
+    font-size: 20px;
+}
+
+.btn a {
+    color: #ffff;
+}
+
+.block {
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.utp {
+    display: block;
+}
+
+.block-calendar {
+    border-radius: 10px;
+    margin-top: 60px;
+    background-color: #fff;
+    width: 1500px;
+    height: 870px;
+    padding-top: 75px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.left {
+    padding-left: 70px;
+}
+
+.wrapper {
+    width: 710px;
+    background-color: #E8E8E8;
+    border-radius: 10px;
+    font-family: "EB Garamond", serif;
+}
+
+.calendar {
+    padding: 60px;
+}
+
+.calendar ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.icons {
+    padding: 20px 60px 20px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icons p {
+    font-size: 42px;
+}
+
+.img {
+    cursor: pointer;
+}
+
+.calendar ul li {
+    position: relative;
+    width: calc(100% / 7);
+    font-size: 30px;
+}
+
+.calendar .days {
+    margin-bottom: 49px;
+}
+
+.calendar .days li {
+    margin-top: 30px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.calendar .days li::before {
+    position: absolute;
+    content: "";
+    height: 50px;
+    width: 50px;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+}
+
+.days li:hover::before {
+    background-color: #242D4A;
+}
+
+.days li:hover {
+    color: #fff;
+}
+
+.days li.inactive {
+    color: #aaa;
+}
+
+.right {
+    padding-top: 33px;
+    width: 650px;
+}
+
+.right h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    color: #000;
+}
+
+.right p {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    color: #000;
+}
+
+.address {
+    width: 316px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.address-p {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #242D4A;
+}
+
+.btnc {
+    padding-top: 40px;
+}
+
+.calendar-button {
+    border: solid 1px #242D4A;
+    background-color: #242D4A;
+    color: #fff;
+    border-radius: 10px;
+    padding: 14px 54px;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+
+
+
+
+
+.text {
+    text-align: right;
+    color: #ffff;
+}
+
+.p1 {
+    font-family: "EB Garamond", serif;
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: -23px;
+}
+
+.text h1 {
+    font-family: "EB Garamond", serif;
+    font-size: 100px;
+    font-weight: 500;
+}
+
+.p2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 200;
+    margin-top: -20px;
+}
+
+.btn2 {
+    margin-top: 39px;
+    padding: 10px 70px;
+    float: right;
+    border: solid 1px #ffff;
+    background-color: #ffff;
+}
+
+.btn2 a {
+    color: #242D4A;
+    font-weight: 600;
+}
+
+.content h2 {
+    color: #ffff;
+    font-family: "EB Garamond", serif;
+    font-size: 42px;
+    text-align: center;
+}
+
+.block3 {
+    margin-top: 60px;
+    background-color: #fff;
+    border-radius: 10px;
+    height: 580px;
+}
+
+.text2 {
+    padding-top: 41px;
+    margin-left: 100px;
+    width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #242D4A;
+    font-family: "Roboto", sans-serif;
+}
+
+.winner {
+    width: 212px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.winner-image {
+    padding-right: 8px;
+}
+
+.status {
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.line {
+    padding: 25px 100px 0 100px;
+}
+
+.date {
+    width: 161px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.text2 a {
+    color: #242D4A;
+}
+
+.title {
+    width: 226px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.status p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.btn3 {
+    background-color: #242D4A;
+    padding: 14px 74px;
+    margin-top: 55px;
+    margin-left: 600px;
+    width: 270px;
+    border-radius: 10px;
+}
+
+.btn3 a {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    color: #ffff;
+}
+
+.footer {
+    background-color: #fff;
+    margin-top: 150px;
+    height: 250px;
+}
+
+.footer-top {
+    padding-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.m2 a {
+    color: #242D4A;
+}
+
+.contacts {
+    color: #242D4A;
+    font-family: "EB Garamond", serif;
+    font-size: 18px;
+}
+
+.number {
+    color: #242D4A;
+    font-family: "EB Garamond", serif;
+    font-size: 18px;
+    float: right;
+    margin-top: -75px;
+}
+
+.footer-bottom {
+    color: #242D4A;
+    font-family: "EB Garamond", serif;
+    font-size: 18px;
+}
+
+.fb {
+    margin-top: 30px;
+}

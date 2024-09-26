@@ -1,0 +1,227 @@
+.bgimg {
+    background-image: url(./image/abouttournaments/bg.png);
+    background-repeat: no-repeat;
+}
+
+.header {
+    background-color: #fff;
+    margin: 0 auto;
+    height: 161px;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+    justify-content: space-between;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 568px;
+    font-size: 20px;
+    font-family: "EB Garamond", serif;
+}
+
+.menu a {
+    color: #242D4A;
+}
+
+.nav_left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 758px;
+}
+
+.btn {
+    border: solid 1px #242D4A;
+    border-radius: 10px;
+    padding: 10px 30px;
+    font-family: "EB Garamond", serif;
+    font-size: 20px;
+}
+
+.btn a {
+    color: #242D4A;
+}
+
+.block {
+    margin-top: 50px;
+    background-color: #fff;
+    height: 1390px;
+    border-radius: 10px;
+}
+
+.main-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1440px;
+    padding-top: 30px;
+    padding-left: 40px;
+    color: #242D4A;
+}
+
+.main-text h2 {
+    font-family: "EB Garamond", serif;
+    font-size: 24px;
+}
+
+.main-text p {
+    color: #242D4A;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.winner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-top: 50px;
+    width: 1084px;
+}
+
+.left {
+    width: 649px;
+}
+
+
+
+
+.slider-container {
+    position: relative;
+    width: 649px;
+    height: 547px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+
+.prev-button,
+.next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.prev-button {
+    left: 5px;
+}
+
+.next-button {
+    right: 5px;
+}
+
+.right h2 {
+    font-family: "EB Garamond", serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #242D4A;
+    padding-bottom: 25px;
+}
+
+.win {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    width: 345px;
+}
+
+.win p {
+    color: #242D4A;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.text {
+    width: 1425px;
+    padding-left: 40px;
+}
+
+.text h2 {
+    font-family: "EB Garamond", serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #242D4A;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+.text p {
+    color: #242D4A;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    background-color: #fff;
+    margin-top: 150px;
+    height: 250px;
+}
+
+.footer-top {
+    padding-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.m2 a {
+    color: #242D4A;
+}
+
+.contacts {
+    color: #242D4A;
+    font-family: "EB Garamond", serif;
+    font-size: 18px;
+}
+
+.number {
+    color: #242D4A;
+    font-family: "EB Garamond", serif;
+    font-size: 18px;
+    float: right;
+    margin-top: -75px;
+}
+
+.footer-bottom {
+    color: #242D4A;
+    font-family: "EB Garamond", serif;
+    font-size: 18px;
+}
+
+.fb {
+    margin-top: 30px;
+}
